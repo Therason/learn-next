@@ -4,9 +4,11 @@ interface Data {
   message: string
 }
 
+// basic dynamic API route
 export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  res.status(200).json({ message: 'Hello World!!' })
+  const { id } = req.query
+  res.status(200).json({ message: id as string })
 }
