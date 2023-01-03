@@ -46,3 +46,50 @@ img {
   display: block;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  max-height: 100%;
+  position: relative;
+}
+
+.content {
+  margin: 40px 0;
+
+
+  height: 100vh;
+  max-height: 100%;
+  width: fit-content;
+  position: relative;
+}
+
+.left, .right {
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  bottom: 0px;
+  border-radius: 5px;
+}
+
+.left:hover, .right:hover {
+  background: rgb(74, 74, 74);
+}
+
+.left {
+  left: 0px;
+}
+
+.right {
+  right: 0px;
+}
+
+.blue {
+  color: #0087ca;
+}
+
+.react {
+  display: inline;
+}
