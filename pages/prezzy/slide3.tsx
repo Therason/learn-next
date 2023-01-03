@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Slide3(){
   return (
     <div className="content">
-      <h1>What Next.js does</h1>
+      <h1>What does Next.js do? 📝</h1>
       <ul>
         <li>Optimized HTML components</li>
         <li>Page and API routing</li>

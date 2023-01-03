@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Slide2(){
   return (
     <div className="content">
-      <h1>What <span className="blue">React <Image className="react" src="/react.svg" alt="React logo" width="32" height="32" /></span> does</h1>
+      <h1>What does <span className="blue">React <Image className="react" src="/react.svg" alt="React logo" width="32" height="32" /></span> do?</h1>
       <ul>
         <li>Client side rendered front ends</li>
         <li>Large bundle sizes</li>

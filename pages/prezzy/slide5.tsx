@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Slide5(){
   return (
     <div className="content">
-      <h1>Filesystem Routing</h1>
+      <h1>Filesystem Routing 🗺️</h1>
       <ul>
         <li>Routing is based on the layout of files in the pages directory</li>
         <li><Link href="/api/hello" target="_blank">API routes</Link></li>

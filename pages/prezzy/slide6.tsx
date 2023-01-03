@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Slide6(){
   return (
     <div className="content">
-      <h1>Pre-Rendering</h1>
+      <h1>Pre-Rendering 🎨</h1>
       <ul>
         <li>DOM can be populated by the server</li>
         <li>User gets a full HTML layout, then fetches the JavaScript to add functionality</li>
