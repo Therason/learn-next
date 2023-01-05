@@ -8,7 +8,7 @@ export default function Slide6(){
         <li>DOM can be populated by the server</li>
         <li>User gets a full HTML layout, then fetches the JavaScript to add functionality</li>
         <li>Can greatly improve Lighthouse performance, when used correctly</li>
-        <li>Support for SSG and SSR, on a per page basis</li>
+        <li>Support for server side rendering and static site generation &#40;or a mix of both&#41;, on a per page basis</li>
       </ul>
       <h2><Link href="/ssgWeather" target="_blank">SSG</Link></h2>
       <ul>
