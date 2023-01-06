@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Slide2(){
   return (
     <div className="content">
-      <h1>What does <span className="blue">React <Image className="svg" src="/react.svg" alt="React logo" width="32" height="32" /></span> do by default?</h1>
+      <h1>What does <span className="blue">React <Image className="svg" src="/react.svg" alt="React logo" width="32" height="32" /></span> do?</h1>
       <ul>
         <li>Lets us create client side rendered front ends</li>
         <li>Standard React CSR flow:
