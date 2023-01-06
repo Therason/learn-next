@@ -5,14 +5,14 @@ export default function Slide7(){
   return (
     <div className="content">
       <h1>Pre-Rendering Cont&apos;d 🎨</h1>
-      <h2><Link href="/ssgWeather" target="_blank">SSG <LinkLogo /></Link></h2>
+      <h2><Link href="/ssgWeather" target="_blank">SSG ⚡ <LinkLogo /></Link></h2>
       <ul>
-        <li>HTML gets generated ONCE build time</li>
+        <li>HTML gets generated <em>ONCE</em> build time</li>
         <li>Ideal when displaying information that doesn&apos;t change often</li>
       </ul>
-      <h2><Link href="/ssrWeather" target="_blank">SSR <LinkLogo /></Link></h2>
+      <h2><Link href="/ssrWeather" target="_blank">SSR ⚡ <LinkLogo /></Link></h2>
       <ul>
-        <li>HTML gets generated on the server EVERY TIME a request gets made</li>
+        <li>HTML gets generated on the server <em>EVERY TIME</em> a request gets made</li>
         <li>Displayed data is always up to date</li>
         <li>Slower than SSG</li>
       </ul>

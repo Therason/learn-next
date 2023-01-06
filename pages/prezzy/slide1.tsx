@@ -6,7 +6,7 @@ export default function Slide1(){
     <div className="content">
       <h1>What is <Image className="svg" src="/next.svg" height="32" width="175" alt="" />? ✨</h1>
       <ul>
-        <li>React framework</li>
+        <li>React framework ⁉️</li>
         <li>Performance oriented 🤔</li>
         <li>Fullstack features 🤷</li>
       </ul>

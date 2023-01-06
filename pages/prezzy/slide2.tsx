@@ -6,7 +6,7 @@ export default function Slide2(){
     <div className="content">
       <h1>What does <span className="blue">React <Image className="svg" src="/react.svg" alt="React logo" width="32" height="32" /></span> do?</h1>
       <ul>
-        <li>Lets us create client side rendered front ends</li>
+        <li>Lets us create <em>client side rendered</em> front ends</li>
         <li>Standard React CSR flow:
           <ul>
             <li>Browser fetches a barebones HTML file from the server &#40;nothing is there to render yet&#41;</li>
@@ -17,9 +17,7 @@ export default function Slide2(){
             <li>API requests get made, then the UI gets fully rendered</li>
           </ul>
         </li>
-        <li>Large bundle sizes</li>
-        <li>Slow first contentful paint times</li>
-        <li>Routing has to be handled by a server like Express or an external library like React Router</li>
+        <li>Large bundle sizes, slow first contentful paint times, and bad SEO 😥😭</li>
       </ul>
       <div className="left"><Link href="/prezzy/slide1">&lt;-</Link></div>
       <div className="right"><Link href="/prezzy/slide3">-&gt;</Link></div>
