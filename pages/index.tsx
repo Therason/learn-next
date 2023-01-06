@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 export default function Prezzy() {
   return (
     <>
-      <main>
+      <main className="content">
         <Link href='/prezzy/slide1'>
           <motion.h1
             animate={{ opacity: 1, scale: 1 }}
