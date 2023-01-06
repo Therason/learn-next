@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 
-// basic dynamic page routing
+// pages with filenames wrapped in brackets are dynamic
 export default function Id() {
   const router = useRouter()
   const { customPage } = router.query

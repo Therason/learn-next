@@ -1,3 +1,4 @@
+// this page returns out of date weather info from the open meteo API
 export default function SsgWeather({ current_weather }: any) {
   return (
     <>

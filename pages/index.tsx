@@ -1,7 +1,7 @@
-import Head from 'next/head'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 
+// the main page users see (http://localhost:3000/)
 export default function Prezzy() {
   return (
     <>

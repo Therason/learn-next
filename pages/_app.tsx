@@ -4,8 +4,10 @@ import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import { motion } from 'framer-motion'
 
+// load the Inter google font
 const inter = Inter({ subsets: ['latin'] })
 
+// the App component gets wrapped around every page
 export default function App({ Component, pageProps, router }: AppProps) {
   return (
     <>
@@ -15,6 +17,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      {/* framer motion and the next router are used to make the fade transition effect */}
       <motion.main
         key={router.route}
         initial="pageInitial"

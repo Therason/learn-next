@@ -1,3 +1,4 @@
+// this page returns up to date weather info from the open meteo API
 export default function SsrWeather({ current_weather }: any) {
   return (
     <>
