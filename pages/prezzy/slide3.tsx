@@ -8,6 +8,7 @@ export default function Slide3(){
         <li>Provides optimized HTML components</li>
         <li>Page and API routing</li>
         <li>Pre-rendered DOM and hydration by default</li>
+        <li>Almost everything is in one place!</li>
       </ul>
       <div className="left"><Link href="/prezzy/slide2">&lt;-</Link></div>
       <div className="right"><Link href="/prezzy/slide4">-&gt;</Link></div>
