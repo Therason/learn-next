@@ -13,7 +13,8 @@ export default function Slide2(){
             <li>HTML file points to a JS file &#40;usually something like <span className="code">bundle.js</span>&#41;</li>
             <li>Browser fetches that JS file</li>
             <li>Browser executes the React code</li>
-            <li>React mounts components to the DOM</li>
+            <li>React mounts components to the DOM without any needed API data</li>
+            <li>API requests get made, then the UI gets fully rendered</li>
           </ul>
         </li>
         <li>Large bundle sizes</li>

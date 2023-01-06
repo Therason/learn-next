@@ -6,9 +6,9 @@ export default function Slide1(){
     <div className="content">
       <h1>What is <Image className="svg" src="/next.svg" height="32" width="175" alt="" />? ✨</h1>
       <ul>
-        <li>React framework&#40;?&#41;</li>
-        <li>Performance oriented&#40;?&#41;</li>
-        <li>Fullstack features&#40;?&#41;</li>
+        <li>React framework</li>
+        <li>Performance oriented 🤔</li>
+        <li>Fullstack features 🤷</li>
       </ul>
       <div className="right"><Link href="/prezzy/slide2">-&gt;</Link></div>
     </div>
