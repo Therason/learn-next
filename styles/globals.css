@@ -90,6 +90,14 @@ main {
   color: #0087ca;
 }
 
-.react {
+.svg {
   display: inline;
+}
+
+.code {
+  font-family: 'Courier New', Courier, monospace;
+  background: rgb(53, 53, 53);
+  border-radius: 5px;
+  padding: 0px 0.5rem;
+  color:rgb(238, 145, 52)
 }
