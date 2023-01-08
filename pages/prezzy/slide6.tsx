@@ -13,7 +13,7 @@ export default function Slide6(){
             <li>Interactivity gets added to the page &#40;hydration&#41;</li>
           </ul>
         </li>
-        <li>Next.js does this by default 🥹</li>
+        <li>Next.js does this by default</li>
         <li>Support for server side rendering and static site generation &#40;or a mix of both&#41;, on a per page basis</li>
       </ul>
       <div className="left"><Link href="/prezzy/slide5">&lt;-</Link></div>
